@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="./weather/style.css">
+</head>
+<style>
+  .background-image {
+    background-image: url("https://images.pexels.com/photos/849835/pexels-photo-849835.jpeg");
+    background-size: cover; 
+    background-position: center;
+  }
+</style>
+</head>
+<body class="background-image">
+  <h1>Weather Forecast</h1>
+  <select id="cityDropdown">
+    <option disabled selected>Select a city</option>
+  </select>
+  <table id="weatherTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Temperature</th>
+        <th>Winds</th>
+        <th>Short Forecast</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <script src="main.js"></script>
+</body>
+</html>
